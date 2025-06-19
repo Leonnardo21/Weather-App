@@ -12,7 +12,6 @@ Este é um aplicativo de consulta de clima desenvolvido em React. Ele permite qu
 
 - React
 - TailwindCSS
-- Axios
 - Vite
 
 ## Instalação
@@ -20,7 +19,7 @@ Este é um aplicativo de consulta de clima desenvolvido em React. Ele permite qu
 1. Clone o repositório:
 
    ```sh
-   git clone https://github.com/seu-usuario/weather-app.git
+   git clone https://github.com/Leonnardo21/Weather-App
    ```
 
 2. Navegue até o diretório do projeto:
@@ -36,10 +35,10 @@ Este é um aplicativo de consulta de clima desenvolvido em React. Ele permite qu
 
 ## Configuração
 
-1. Crie um arquivo .env na raiz do projeto e adicione sua chave da API do WeatherAPI:
+1. Adicione sua chave da API do WeatherAPI (./src/services/weatherAPI.js):
 
    ```js
-   VITE_WEATHER_API_KEY = SUA_CHAVE_API;
+   const apiKey = "SUA_CHAVE";
    ```
 
 ## Uso
